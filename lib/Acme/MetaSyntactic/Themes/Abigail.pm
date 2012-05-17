@@ -29,7 +29,7 @@ Acme::MetaSyntactic::Themes::Abigail - Abstract
 =head1 DEVELOPMENT
 
 The current sources of this module are found on github,
-L<< git://github.com/Abigail/Acme--MetaSyntactic--Themes--Abigail.git >>.
+L<< git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git >>.
 
 =head1 AUTHOR
 
