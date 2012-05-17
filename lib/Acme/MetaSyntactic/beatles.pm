@@ -20,7 +20,8 @@ Acme::MetaSyntactic::beatles - Singers from the 1960s British rock & roll group.
 
 The Beatles were to music what LISP was the programming languages.
 
-This module contains four (sub)themes: C<< first/standard >>, containing
+This module contains four (sub)themes related to their names:
+C<< first/standard >>, containing
 the four first names (John, Paul, George, Ringo) of what we typically 
 consider to be the four Beatles. C<< full/standard >> contain the full
 names of the fab four: John Lennon, Paul McCartney, George Harrison, and
@@ -28,6 +29,9 @@ Ringo Starr. However, in the early years of the band, the drummer was
 Pete Best. Hence the additional themes C<< first/early >> and C<< full/early >>,
 which swaps Ringo Starr for Pete Best. The default theme is
 C<< first/standard >>.
+
+A fifth theme is C<< albums >>, containing the names of the 12 albums that
+are considered the "core" albums of The Beatles.
 
 This module is part of the set of C<< Acme::MetaSyntactic >> themes
 found in the C<< Acme::MetaSyntactic::Themes::Abigail >> package.
@@ -76,3 +80,16 @@ John_Lennon Paul_McCartney George_Harrison Ringo_Starr
 John Paul George Pete
 # names full early
 John_Lennon Paul_McCartney George_Harrison Pete_Best
+# names albums
+Please_Please_Me
+With_The_Beatles
+A_Hard_Day_s_Night
+Beatles_for_Sale
+Help
+Rubber_Soul
+Revolver
+Sgt_Pepper_s_Lonely_Hearts_Club_Band
+The_Beatles
+Yellow_Submarine
+Abbey_Road
+Let_It_Be
