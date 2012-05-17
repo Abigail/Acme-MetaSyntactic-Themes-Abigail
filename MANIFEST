@@ -1,4 +1,5 @@
 lib/Acme/MetaSyntactic/Themes/Abigail.pm
+lib/Acme/MetaSyntactic/beatles.pm
 Makefile.PL
 MANIFEST
 t/000_basic.t
