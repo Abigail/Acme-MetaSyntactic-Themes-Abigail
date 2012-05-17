@@ -20,7 +20,7 @@ Acme::MetaSyntactic::Themes::Abigail - Abstract
 
 This package installs a few more themes for C<< Acme::MetaSyntactic >>.
 
-Currently, the following themes are supplied: C<< beatles >>.
+Currently, the following themes are supplied: C<< beatles >>, and C<< sodor >>.
 
 =head1 TODO
 
