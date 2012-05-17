@@ -16,15 +16,19 @@ __END__
 
 Acme::MetaSyntactic::Themes::Abigail - Abstract
 
-=head1 SYNOPSIS
-
 =head1 DESCRIPTION
 
-=head1 BUGS
+This package installs a few more themes for C<< Acme::MetaSyntactic >>.
+
+Currently, the following themes are supplied: C<< beatles >>.
 
 =head1 TODO
 
+More themes.
+
 =head1 SEE ALSO
+
+L<< Acme::MetaSyntactic >>
 
 =head1 DEVELOPMENT
 
