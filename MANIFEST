@@ -2,6 +2,7 @@ lib/Acme/MetaSyntactic/Themes/Abigail.pm
 Makefile.PL
 MANIFEST
 t/000_basic.t
+t/100_metasyntactic.t
 t/950_pod.t
 t/960_pod_coverage.t
 Changes
