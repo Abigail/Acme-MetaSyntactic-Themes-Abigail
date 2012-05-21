@@ -1,40 +1,33 @@
-package Acme::MetaSyntactic::Themes::Abigail;
+package Acme::MetaSyntactic::bee_gees;
 
-use 5.006;
 use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2012052102';
+use Acme::MetaSyntactic::MultiList;
+our @ISA = qw [Acme::MetaSyntactic::MultiList];
 
+our $VERSION = '2012052102';
+__PACKAGE__ -> init ();
 
 1;
 
-__END__
-
 =head1 NAME
 
-Acme::MetaSyntactic::Themes::Abigail - Abstract
+Acme::MetaSyntactic::bee_gees - The Gibb brothers
 
 =head1 DESCRIPTION
 
-This package installs a few more themes for C<< Acme::MetaSyntactic >>.
+The three Gibb brothers formed a musical group lasting 45 years, from
+1958 till 2003, when Maurice died. Barry and Robin reformed the group
+in 2009, but Robin passed away on May 20, 2012. 
 
-Currently, the following themes are supplied: C<< beatles >>,
-C<< charlies_angels >>, C<< michelin >>, and C<< sodor >>.
-
-=head1 TODO
-
-More themes.
+This module is part of the set of C<< Acme::MetaSyntactic >> themes
+found in the C<< Acme::MetaSyntactic::Themes::Abigail >> package.
 
 =head1 SEE ALSO
 
-L<< Acme::MetaSyntactic >>
-
-=head1 DEVELOPMENT
-
-The current sources of this module are found on github,
-L<< git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git >>.
+L<Acme::MetaSyntactic>, L<Acme::MetaSyntactic::MultiList>.
 
 =head1 AUTHOR
 
@@ -62,14 +55,11 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
 OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-=head1 INSTALLATION
-
-To install this module, run, after unpacking the tar-ball, the 
-following commands:
-
-   perl Makefile.PL
-   make
-   make test
-   make install
 
 =cut
+
+__DATA__
+# default
+first
+# names first
+Barry Robin Maurice
