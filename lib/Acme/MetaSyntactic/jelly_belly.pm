@@ -1,41 +1,33 @@
-package Acme::MetaSyntactic::Themes::Abigail;
+package Acme::MetaSyntactic::jelly_belly;
 
-use 5.006;
 use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2012053102';
+use Acme::MetaSyntactic::List;
+our @ISA = qw [Acme::MetaSyntactic::List];
 
+our $VERSION = '2012053102';
+__PACKAGE__ -> init;
 
 1;
 
-__END__
-
 =head1 NAME
 
-Acme::MetaSyntactic::Themes::Abigail - Abstract
+Acme::MetaSyntactic::jelly_belly - Jelly bean flavours
 
 =head1 DESCRIPTION
 
-This package installs a few more themes for C<< Acme::MetaSyntactic >>.
+This C<< Acme::MetaSyntactic >> theme lists the official 50 flavours
+of jelly beans made by the Jelly Belly company.
 
-Currently, the following themes are supplied: C<< beatles >>, C<< bee_gees >>,
-C<< charlies_angels >>, C<< compass >>, C<< evangelist >>, 
-C<< jelly_belly >>, C<< michelin >>, C<< nehi >>, and C<< sodor >>.
-
-=head1 TODO
-
-More themes.
+This module is part of the set of C<< Acme::MetaSyntactic >> themes
+found in the C<< Acme::MetaSyntactic::Themes::Abigail >> package.
 
 =head1 SEE ALSO
 
-L<< Acme::MetaSyntactic >>
-
-=head1 DEVELOPMENT
-
-The current sources of this module are found on github,
-L<< git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git >>.
+L<Acme::MetaSyntactic>, L<< Acme::MetaSyntactic::List >>,
+L<< http://www.jellybelly.com/ >>
 
 =head1 AUTHOR
 
@@ -63,14 +55,18 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
 OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-=head1 INSTALLATION
-
-To install this module, run, after unpacking the tar-ball, the 
-following commands:
-
-   perl Makefile.PL
-   make
-   make test
-   make install
 
 =cut
+
+__DATA__
+# names
+A_W_Cream_Soda A_W_Root_Beer Berry_Blue Blueberry Bubble_Gum
+Buttered_Popcorn Cantaloupe Cappuccino Caramel_Corn Chili_Mango
+Chocolate_Pudding Cinnamon Coconut Cotton_Candy Crushed_Pineapple
+Dr_Pepper French_Vanilla Green_Apple Island_Punch Juicy_Pear Kiwi
+Lemon_Drop Lemon_Lime Licorice Mango Margarita Mixed_Berry_Smoothie
+Orange_Sherbet Peach Pina_Colada Plum Pomegranate Raspberry Red_Apple
+Sizzling_Cinnamon Sour_Cherry Strawberry_Cheesecake Strawberry_Daiquiri
+Strawberry_Jam Sunkist_Lemon Sunkist_Lime Sunkist_Orange
+Sunkist_Pink_Grapefruit Sunkist_Tangerine Toasted_Marshmallow
+Top_Banana Tutti_Fruitti Very_Cherry Watermelon Wild_Blackberry
