@@ -7,7 +7,7 @@ use warnings;
 no  warnings 'syntax';
 
 unless ($ENV {AUTHOR_TESTING}) {
-    plan skip_all => "AUTHOR tests skipped";
+    plan skip_all => "AUTHOR tests";
     exit;
 }
 
