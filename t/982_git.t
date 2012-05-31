@@ -17,8 +17,8 @@ unless (-f ".git/config") {
 }
 
 undef $ENV {PATH};
-my $GIT  = "/opt/git/bin/git";
-my $HEAD = "/usr/bin/head";
+my ($GIT)  = grep {-x} qw [/opt/git/bin/git /opt/local/bin/git];
+my ($HEAD) = grep {-x} qw [/usr/bin/head];
 
 my @output = `$GIT status --porcelain`;
 
