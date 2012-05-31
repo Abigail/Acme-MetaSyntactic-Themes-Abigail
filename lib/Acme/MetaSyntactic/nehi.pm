@@ -1,41 +1,40 @@
-package Acme::MetaSyntactic::Themes::Abigail;
+package Acme::MetaSyntactic::nehi;
 
-use 5.006;
 use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2012053101';
+use Acme::MetaSyntactic::List;
+our @ISA = qw [Acme::MetaSyntactic::List];
 
+our $VERSION = '2012053101';
+__PACKAGE__ -> init;
 
 1;
 
-__END__
-
 =head1 NAME
 
-Acme::MetaSyntactic::Themes::Abigail - Abstract
+Acme::MetaSyntactic::nehi - Nehi flavours
 
 =head1 DESCRIPTION
 
-This package installs a few more themes for C<< Acme::MetaSyntactic >>.
+This C<< Acme::MetaSyntactic >> theme lists the flavours of soda
+of the Nehi brand. The Nehi line of sodas was started by the 
+Chero-Cola company in 1924. Since 2008, Nehi is a brand of the
+Dr Pepper Snapple group.
 
-Currently, the following themes are supplied: C<< beatles >>, C<< bee_gees >>,
-C<< charlies_angels >>, C<< compass >>, C<< evangelist >>, C<< michelin >>,
-C<< nehi >>, and C<< sodor >>.
-
-=head1 TODO
-
-More themes.
+This module is part of the set of C<< Acme::MetaSyntactic >> themes
+found in the C<< Acme::MetaSyntactic::Themes::Abigail >> package.
 
 =head1 SEE ALSO
 
-L<< Acme::MetaSyntactic >>
+L<Acme::MetaSyntactic>, L<< Acme::MetaSyntactic::List >>,
+L<< http://en.wikipedia.org/wiki/Nehi >>
 
-=head1 DEVELOPMENT
+=head1 TRIVIA
 
-The current sources of this module are found on github,
-L<< git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git >>.
+In the movie and television series M*A*S*H, the favourite drink of
+Radar is Grape Nehi.
 
 =head1 AUTHOR
 
@@ -63,14 +62,12 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
 OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-=head1 INSTALLATION
-
-To install this module, run, after unpacking the tar-ball, the 
-following commands:
-
-   perl Makefile.PL
-   make
-   make test
-   make install
 
 =cut
+
+__DATA__
+# names
+Dr_Nehi Blue_Raspberry Chocolate Root_Beer Berks_County_Root_Beer
+Lemonade Wild_Berry Grape Peach Strawberry Orange Berry Blue_Ice_Cream
+Ginger Fruit_Punch Blueberry Watermelon Lime_lemon Cherry Blue_Cream
+Red Pineapple
