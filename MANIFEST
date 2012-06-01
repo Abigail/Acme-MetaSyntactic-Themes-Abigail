@@ -12,6 +12,7 @@ lib/Acme/MetaSyntactic/nehi.pm
 lib/Acme/MetaSyntactic/noughts_and_crosses.pm
 lib/Acme/MetaSyntactic/shou_dou_qi.pm
 lib/Acme/MetaSyntactic/sodor.pm
+lib/Acme/MetaSyntactic/willy_wonka.pm
 Makefile.PL
 MANIFEST
 t/000_basic.t
