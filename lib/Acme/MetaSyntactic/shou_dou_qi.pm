@@ -1,42 +1,42 @@
-package Acme::MetaSyntactic::Themes::Abigail;
+package Acme::MetaSyntactic::shou_dou_qi;
 
-use 5.006;
 use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2012060102';
+use Acme::MetaSyntactic::Locale;
+our @ISA = qw [Acme::MetaSyntactic::Locale];
 
+our $VERSION = '2012060102';
+__PACKAGE__ -> init;
 
 1;
 
-__END__
-
 =head1 NAME
 
-Acme::MetaSyntactic::Themes::Abigail - Abstract
+Acme::MetaSyntactic::shou_dou_qi - The pieces of the classical Chinese game
 
 =head1 DESCRIPTION
 
-This package installs a few more themes for C<< Acme::MetaSyntactic >>.
+This C<< Acme::MetaSyntactic >> theme lists the names of the classical
+Chinese game I<< Shou Dou Qi >>, (E<29555>E<39717>E<26827>), also known
+as I<< Jungle >>.
 
-Currently, the following themes are supplied: C<< beatles >>, C<< bee_gees >>,
-C<< charlies_angels >>, C<< cluedo >>, C<< compass >>, C<< evangelist >>, 
-C<< jelly_belly >>, C<< michelin >>, C<< nehi >>, C<< noughts_and_crosses >>,
-C<< shou_dou_qi >>, and C<< sodor >>.
+This module is part of the set of C<< Acme::MetaSyntactic >> themes
+found in the C<< Acme::MetaSyntactic::Themes::Abigail >> package.
 
-=head1 TODO
+=head1 NOTES
 
-More themes.
+The I<< mouse >> is also known as a I<< rat >>.
+
+For the names in the Chinese local (C<< zh >>), the Chinese names have
+been transcribed using the I<< Pinyin >> system; with any tonal marks
+removed.
 
 =head1 SEE ALSO
 
-L<< Acme::MetaSyntactic >>
-
-=head1 DEVELOPMENT
-
-The current sources of this module are found on github,
-L<< git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git >>.
+L<Acme::MetaSyntactic>, L<< Acme::MetaSyntactic::Locale >>, and
+L<< http://www.chessvariants.org/other.dir/animal.html >>.
 
 =head1 AUTHOR
 
@@ -64,14 +64,15 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
 OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-=head1 INSTALLATION
-
-To install this module, run, after unpacking the tar-ball, the 
-following commands:
-
-   perl Makefile.PL
-   make
-   make test
-   make install
 
 =cut
+
+__DATA__
+# default
+en
+# names en
+elephant lion  tiger  leopard  wolf dog  cat mouse
+# names du
+olifant  leeuw tijger luipaard wolf hond kat muis
+# names zh
+xiang    shi   hu     bao      hang gou  mao shu
