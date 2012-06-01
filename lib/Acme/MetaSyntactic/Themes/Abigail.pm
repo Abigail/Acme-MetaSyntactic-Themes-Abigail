@@ -5,7 +5,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2012060103';
+our $VERSION = '2012060201';
 
 
 1;
@@ -22,8 +22,8 @@ This package installs a few more themes for C<< Acme::MetaSyntactic >>.
 
 Currently, the following themes are supplied: C<< beatles >>, C<< bee_gees >>,
 C<< charlies_angels >>, C<< cluedo >>, C<< compass >>, C<< evangelist >>, 
-C<< famous_five >>, C<< jelly_belly >>, C<< michelin >>, C<< nehi >>,
-C<< noughts_and_crosses >>, C<< shou_dou_qi >>, C<< sodor >>, and
+C<< famous_five >>, C<< jelly_belly >>, C<< kodokan >>, C<< michelin >>,
+C<< nehi >>, C<< noughts_and_crosses >>, C<< shou_dou_qi >>, C<< sodor >>, and
 C<< willy_wonka >>.
 
 =head1 TODO

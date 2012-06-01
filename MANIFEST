@@ -7,6 +7,7 @@ lib/Acme/MetaSyntactic/compass.pm
 lib/Acme/MetaSyntactic/evangelist.pm
 lib/Acme/MetaSyntactic/famous_five.pm
 lib/Acme/MetaSyntactic/jelly_belly.pm
+lib/Acme/MetaSyntactic/kodokan.pm
 lib/Acme/MetaSyntactic/michelin.pm
 lib/Acme/MetaSyntactic/nehi.pm
 lib/Acme/MetaSyntactic/noughts_and_crosses.pm
