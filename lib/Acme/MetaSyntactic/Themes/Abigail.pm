@@ -5,7 +5,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2012053102';
+our $VERSION = '2012060101';
 
 
 1;
@@ -21,7 +21,7 @@ Acme::MetaSyntactic::Themes::Abigail - Abstract
 This package installs a few more themes for C<< Acme::MetaSyntactic >>.
 
 Currently, the following themes are supplied: C<< beatles >>, C<< bee_gees >>,
-C<< charlies_angels >>, C<< compass >>, C<< evangelist >>, 
+C<< charlies_angels >>, C<< cluedo >>, C<< compass >>, C<< evangelist >>, 
 C<< jelly_belly >>, C<< michelin >>, C<< nehi >>, and C<< sodor >>.
 
 =head1 TODO
