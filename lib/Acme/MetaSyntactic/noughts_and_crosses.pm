@@ -1,42 +1,33 @@
-package Acme::MetaSyntactic::Themes::Abigail;
+package Acme::MetaSyntactic::noughts_and_crosses;
 
-use 5.006;
 use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2012060102';
+use Acme::MetaSyntactic::List;
+our @ISA = qw [Acme::MetaSyntactic::List];
 
+our $VERSION = '2012060102';
+__PACKAGE__ -> init;
 
 1;
 
-__END__
-
 =head1 NAME
 
-Acme::MetaSyntactic::Themes::Abigail - Abstract
+Acme::MetaSyntactic::noughts_and_crosses - The pieces of the classical game
 
 =head1 DESCRIPTION
 
-This package installs a few more themes for C<< Acme::MetaSyntactic >>.
+This C<< Acme::MetaSyntactic >> theme lists the names of the classical
+game I<< Noughts and Crosses >>, also known as I<< Tic-Tac-Toe >>.
 
-Currently, the following themes are supplied: C<< beatles >>, C<< bee_gees >>,
-C<< charlies_angels >>, C<< cluedo >>, C<< compass >>, C<< evangelist >>, 
-C<< jelly_belly >>, C<< michelin >>, C<< nehi >>, C<< noughts_and_crosses >>,
-and C<< sodor >>.
-
-=head1 TODO
-
-More themes.
+This module is part of the set of C<< Acme::MetaSyntactic >> themes
+found in the C<< Acme::MetaSyntactic::Themes::Abigail >> package.
 
 =head1 SEE ALSO
 
-L<< Acme::MetaSyntactic >>
-
-=head1 DEVELOPMENT
-
-The current sources of this module are found on github,
-L<< git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git >>.
+L<Acme::MetaSyntactic>, L<< Acme::MetaSyntactic::List >>,
+L<< http://en.wikipedia.org/wiki/Nehi >>
 
 =head1 AUTHOR
 
@@ -64,14 +55,9 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
 OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-=head1 INSTALLATION
-
-To install this module, run, after unpacking the tar-ball, the 
-following commands:
-
-   perl Makefile.PL
-   make
-   make test
-   make install
 
 =cut
+
+__DATA__
+# names
+nought cross

@@ -8,6 +8,7 @@ lib/Acme/MetaSyntactic/evangelist.pm
 lib/Acme/MetaSyntactic/jelly_belly.pm
 lib/Acme/MetaSyntactic/michelin.pm
 lib/Acme/MetaSyntactic/nehi.pm
+lib/Acme/MetaSyntactic/noughts_and_crosses.pm
 lib/Acme/MetaSyntactic/sodor.pm
 Makefile.PL
 MANIFEST
