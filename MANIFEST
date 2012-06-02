@@ -1,4 +1,5 @@
 lib/Acme/MetaSyntactic/Themes/Abigail.pm
+lib/Acme/MetaSyntactic/all_in_the_family.pm
 lib/Acme/MetaSyntactic/beatles.pm
 lib/Acme/MetaSyntactic/bee_gees.pm
 lib/Acme/MetaSyntactic/charlies_angels.pm

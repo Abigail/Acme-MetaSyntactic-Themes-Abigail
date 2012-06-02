@@ -1,43 +1,34 @@
-package Acme::MetaSyntactic::Themes::Abigail;
+package Acme::MetaSyntactic::all_in_the_family;
 
-use 5.006;
 use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2012060202';
+use Acme::MetaSyntactic::List;
+our @ISA = qw [Acme::MetaSyntactic::List];
 
+our $VERSION = '2012060202';
+__PACKAGE__ -> init;
 
 1;
 
-__END__
-
 =head1 NAME
 
-Acme::MetaSyntactic::Themes::Abigail - Abstract
+Acme::MetaSyntactic::all_in_the_family - The main characters.
 
 =head1 DESCRIPTION
 
-This package installs a few more themes for C<< Acme::MetaSyntactic >>.
+This C<< Acme::MetaSyntactic >> theme lists the main characters
+of the series C<< All In The Family >>, whose original ran from
+1971 to 1979.
 
-Currently, the following themes are supplied: C<< all_in_the_family >>,
-C<< beatles >>, C<< bee_gees >>, C<< charlies_angels >>, C<< cluedo >>,
-C<< compass >>, C<< evangelist >>, C<< famous_five >>, C<< jelly_belly >>,
-C<< kodokan >>, C<< michelin >>, C<< nehi >>, C<< noughts_and_crosses >>,
-C<< shou_dou_qi >>, C<< sodor >>, and C<< willy_wonka >>.
-
-=head1 TODO
-
-More themes.
+This module is part of the set of C<< Acme::MetaSyntactic >> themes
+found in the C<< Acme::MetaSyntactic::Themes::Abigail >> package.
 
 =head1 SEE ALSO
 
-L<< Acme::MetaSyntactic >>
-
-=head1 DEVELOPMENT
-
-The current sources of this module are found on github,
-L<< git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git >>.
+L<Acme::MetaSyntactic>, L<< Acme::MetaSyntactic::List >>,
+L<< http://www.imdb.com/title/tt0066626/combined >>.
 
 =head1 AUTHOR
 
@@ -65,14 +56,9 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
 OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-=head1 INSTALLATION
-
-To install this module, run, after unpacking the tar-ball, the 
-following commands:
-
-   perl Makefile.PL
-   make
-   make test
-   make install
 
 =cut
+
+__DATA__
+# names
+Archie_Bunker Edith_Bunker Gloria_Stivic Michael_Stivic
