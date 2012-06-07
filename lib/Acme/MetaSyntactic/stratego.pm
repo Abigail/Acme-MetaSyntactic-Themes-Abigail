@@ -1,44 +1,41 @@
-package Acme::MetaSyntactic::Themes::Abigail;
+package Acme::MetaSyntactic::stratego;
 
-use 5.006;
 use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2012060702';
+use Acme::MetaSyntactic::List;
+our @ISA = qw [Acme::MetaSyntactic::List];
 
+our $VERSION = '2012060701';
+__PACKAGE__ -> init ();
 
 1;
 
-__END__
-
 =head1 NAME
 
-Acme::MetaSyntactic::Themes::Abigail - Abstract
+Acme::MetaSyntactic::stratego - Stratego pieces
 
 =head1 DESCRIPTION
 
-This package installs a few more themes for C<< Acme::MetaSyntactic >>.
+This C<< Acme::MetaSyntactic >> theme lists the pieces from the
+classical boardgame I<< Stratego >>. The game was created by
+I<< Mademoiselle Hermance Edan >> in 1908, and it was named 
+I<< L'attaque >>. Currently, the game is published by I<< Jumbo >>
+and I<< Hasbro >>. I<< Stratego >> has roots in the game of 
+I<< Shou Dou Qi >>.
 
-Currently, the following themes are supplied: C<< all_in_the_family >>,
-C<< beatles >>, C<< bee_gees >>, C<< candyland >>, C<< charlies_angels >>,
-C<< cluedo >>, C<< compass >>, C<< evangelist >>, C<< famous_five >>,
-C<< jelly_belly >>, C<< kodokan >>, C<< michelin >>, C<< nehi >>,
-C<< noughts_and_crosses >>, C<< shou_dou_qi >>, C<< sodor >>,
-C<< southpark >>, C<< stratego >>, and C<< willy_wonka >>.
+This module is part of the set of C<< Acme::MetaSyntactic >> themes
+found in the C<< Acme::MetaSyntactic::Themes::Abigail >> package.
 
-=head1 TODO
+=head1 NOTES
 
-More themes.
+In some editions, the I<< miner >> is known as a I<< sapper >>.
 
 =head1 SEE ALSO
 
-L<< Acme::MetaSyntactic >>
-
-=head1 DEVELOPMENT
-
-The current sources of this module are found on github,
-L<< git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git >>.
+L<Acme::MetaSyntactic>, L<Acme::MetaSyntactic::List>,
+L<< Acme::MetaSyntactic::shou_dou_qi >>, L<< http://www.stratego.com/ >>.
 
 =head1 AUTHOR
 
@@ -66,14 +63,10 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
 OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-=head1 INSTALLATION
-
-To install this module, run, after unpacking the tar-ball, the 
-following commands:
-
-   perl Makefile.PL
-   make
-   make test
-   make install
 
 =cut
+
+__DATA__
+# names
+flag bomb spy scout miner sergeant lieutenant captain major colonel
+general marshall
