@@ -21,6 +21,7 @@ lib/Acme/MetaSyntactic/stratego.pm
 lib/Acme/MetaSyntactic/willy_wonka.pm
 Makefile.PL
 MANIFEST
+MANIFEST.SKIP
 t/000_basic.t
 t/100_metasyntactic.t
 t/950_pod.t
