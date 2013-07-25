@@ -5,7 +5,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2012060702';
+our $VERSION = '2013072601';
 
 
 1;
@@ -24,8 +24,8 @@ Currently, the following themes are supplied: C<< all_in_the_family >>,
 C<< beatles >>, C<< bee_gees >>, C<< candyland >>, C<< charlies_angels >>,
 C<< cluedo >>, C<< compass >>, C<< evangelist >>, C<< famous_five >>,
 C<< jelly_belly >>, C<< kodokan >>, C<< michelin >>, C<< nehi >>,
-C<< noughts_and_crosses >>, C<< shou_dou_qi >>, C<< sodor >>,
-C<< southpark >>, C<< stratego >>, and C<< willy_wonka >>.
+C<< noughts_and_crosses >>, C<< playing_cards >>, C<< shou_dou_qi >>,
+C<< sodor >>, C<< southpark >>, C<< stratego >>, and C<< willy_wonka >>.
 
 =head1 TODO
 
