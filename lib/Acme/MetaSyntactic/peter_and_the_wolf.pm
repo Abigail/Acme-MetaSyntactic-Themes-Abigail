@@ -1,45 +1,39 @@
-package Acme::MetaSyntactic::Themes::Abigail;
+package Acme::MetaSyntactic::peter_and_the_wolf;
 
-use 5.006;
 use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2013072602';
+use Acme::MetaSyntactic::MultiList;
+our @ISA = qw [Acme::MetaSyntactic::MultiList];
 
+our $VERSION = '2013072602';
+__PACKAGE__ -> init ();
 
 1;
 
-__END__
-
 =head1 NAME
 
-Acme::MetaSyntactic::Themes::Abigail - Abstract
+Acme::MetaSyntactic::peter_and_the_wolf - Characters from Peter and the Wolf
 
 =head1 DESCRIPTION
 
-This package installs a few more themes for C<< Acme::MetaSyntactic >>.
+This C<< Acme::MetaSyntactic >> theme lists the character from the
+story I<< Peter and the Wolf >>, a Russian childrens story written
+in 1936 by Sergei Prokofiev. Traditionally, the story is told by a
+narrator, with the help of an orchestra. Each character has its own
+particular instrument.
 
-Currently, the following themes are supplied: C<< all_in_the_family >>,
-C<< beatles >>, C<< bee_gees >>, C<< candyland >>, C<< charlies_angels >>,
-C<< cluedo >>, C<< compass >>, C<< cyclists >>, C<< evangelist >>,
-C<< famous_five >>, C<< jelly_belly >>, C<< kodokan >>, C<< michelin >>,
-C<< moonwalkers >>, C<< nehi >>, C<< noughts_and_crosses >>,
-C<< peter_and_the_wolf >>, C<< playing_cards >>, C<< shou_dou_qi >>,
-C<< sodor >>, C<< southpark >>, C<< stratego >>, and C<< willy_wonka >>.
+The default subtheme is C<< characters >>, which gives you the
+characters of the story. The subtheme C<< instruments >> give you
+the instruments of the characters.
 
-=head1 TODO
-
-More themes.
+This module is part of the set of C<< Acme::MetaSyntactic >> themes
+found in the C<< Acme::MetaSyntactic::Themes::Abigail >> package.
 
 =head1 SEE ALSO
 
-L<< Acme::MetaSyntactic >>
-
-=head1 DEVELOPMENT
-
-The current sources of this module are found on github,
-L<< git://github.com/Abigail/Acme-MetaSyntactic-Themes-Abigail.git >>.
+L<Acme::MetaSyntactic>, L<Acme::MetaSyntactic::List>.
 
 =head1 AUTHOR
 
@@ -47,7 +41,7 @@ Abigail, L<< mailto:cpan@abigail.be >>.
 
 =head1 COPYRIGHT and LICENSE
 
-Copyright (C) 2012 by Abigail.
+Copyright (C) 2013 by Abigail.
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the "Software"),   
@@ -67,14 +61,13 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT
 OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-=head1 INSTALLATION
-
-To install this module, run, after unpacking the tar-ball, the 
-following commands:
-
-   perl Makefile.PL
-   make
-   make test
-   make install
 
 =cut
+
+__DATA__
+# default
+characters
+# names characters
+bird duck cat wolf peter grandfather hunters
+# names instruments
+flute oboe clarinet french_horns string_instruments bassoon woodwind
