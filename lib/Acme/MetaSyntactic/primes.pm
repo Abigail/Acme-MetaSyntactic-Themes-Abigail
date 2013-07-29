@@ -57,8 +57,6 @@ THE SOFTWARE.
 
 =cut
 
-use Lingua::EN::Numbers qw [num2en];
-
 my $primes;
 
 if (eval "require Lingua::EN::Numbers") {
