@@ -47,6 +47,9 @@ my %args = (
             repository                     => $REPOSITORY,
         },
         keywords         => [qw [ ]],
+        recommends       => {
+            'Lingua::EN::Numbers'          =>  0,
+        },
     },
 );
 
