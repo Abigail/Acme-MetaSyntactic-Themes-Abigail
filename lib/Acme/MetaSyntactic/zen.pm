@@ -12,7 +12,7 @@ sub FETCH    {return ''}
 sub FIRSTKEY {return}
 sub NEXTKEY  {return}
 
-our $VERSION = '2012051701';
+our $VERSION = '2013072902';
 tie my %hash, __PACKAGE__;
 
 __PACKAGE__ -> init ({
