@@ -23,7 +23,6 @@ lib/Acme/MetaSyntactic/sodor.pm
 lib/Acme/MetaSyntactic/southpark.pm
 lib/Acme/MetaSyntactic/stratego.pm
 lib/Acme/MetaSyntactic/willy_wonka.pm
-lib/Acme/MetaSyntactic/zen.pm
 Makefile.PL
 MANIFEST
 MANIFEST.SKIP

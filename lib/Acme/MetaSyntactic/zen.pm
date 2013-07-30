@@ -7,7 +7,7 @@ no  warnings 'syntax';
 use Acme::MetaSyntactic::MultiList;
 our @ISA = qw [Acme::MetaSyntactic::MultiList];
 
-our $VERSION = '2013073001';
+our $VERSION = '2013073101';
 
 __PACKAGE__ -> init ({
     default  =>  'en',

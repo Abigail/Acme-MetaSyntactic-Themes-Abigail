@@ -5,7 +5,7 @@ use strict;
 use warnings;
 no  warnings 'syntax';
 
-our $VERSION = '2013073001';
+our $VERSION = '2013073101';
 
 
 1;
@@ -27,7 +27,7 @@ C<< famous_five >>, C<< jelly_belly >>, C<< kodokan >>, C<< michelin >>,
 C<< moonwalkers >>, C<< nehi >>, C<< noughts_and_crosses >>,
 C<< peter_and_the_wolf >>, C<< playing_cards >>, C<< primes >>,
 C<< shou_dou_qi >>, C<< sodor >>, C<< southpark >>, C<< stratego >>,
-C<< willy_wonka >>, and C<< zen >>.
+C<< willy_wonka >>.
 
 =head1 TODO
 
